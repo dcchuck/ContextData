@@ -18,7 +18,8 @@ FDC3 Context Data defines a standard way to pass common identifiers between apps
 ```
 ## Example Context Object
 ```javascript
-{ “object” : ”fdc3-context”, 
+{ 
+  “object” : ”fdc3-context”, 
   “definition” : ” https://fdc3.org...”, 
   “version” : ”0.0.1”,
   “data” : [ 
@@ -31,6 +32,8 @@ FDC3 Context Data defines a standard way to pass common identifiers between apps
         “CUSIP” : “037833100”,
         “FIGI” : ”BBG000B9XRY4”,
         “default“ : “aapl”
-    }}
-]}
+      }
+    }
+  ]
+}
 ```
