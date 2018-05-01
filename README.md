@@ -10,10 +10,10 @@ FDC3 Context Data defines a standard way to pass common identifiers between apps
 ## Context Envelope Structure
 ```javascript
 {
-object: (string) //object type
-definition: (string) //url
-version: (string) //version # (semver)
-data: (array) //the context payload
+  object: (string) //object type
+  definition: (string) //url
+  version: (string) //version # (semver)
+  data: (array) //the context payload
 }
 ```
 ## Example Context Object
