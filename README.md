@@ -20,7 +20,7 @@ FDC3 Context Data defines a standard way to pass common identifiers between apps
 ```javascript
 { “object” : ”fdc3-context”, 
   “definition” : ” https://fdc3.org...”, 
-  “version” : ”1.0.0”,
+  “version” : ”0.0.1”,
   “data” : [ 
     { 
       “type” : ”security”,
